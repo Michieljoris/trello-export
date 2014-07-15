@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/michieljoris/bin/node',
+1 verbose cli   '/home/michieljoris/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'docs' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /home/michieljoris/bin/node
+5 verbose run-script [ 'predocs', 'docs', 'postdocs' ]
+6 info predocs trello-ucm@0.1.1
+7 info docs trello-ucm@0.1.1
+8 verbose unsafe-perm in lifecycle true
+9 info trello-ucm@0.1.1 Failed to exec docs script
+10 error trello-ucm@0.1.1 docs: `node node_modules/.bin/docco src/trello-ucm.js`
+10 error Exit status 8
+11 error Failed at the trello-ucm@0.1.1 docs script.
+11 error This is most likely a problem with the trello-ucm package,
+11 error not with npm itself.
+11 error Tell the author that this fails on your system:
+11 error     node node_modules/.bin/docco src/trello-ucm.js
+11 error You can get their info via:
+11 error     npm owner ls trello-ucm
+11 error There is likely additional logging output above.
+12 error System Linux 3.11.0-12-generic
+13 error command "/home/michieljoris/bin/node" "/home/michieljoris/bin/npm" "run-script" "docs"
+14 error cwd /media/michieljoris/d5099508-7d17-4aea-ac80-ac38100b9447/home/michieljoris/mysrc/javascript/trello-ucm
+15 error node -v v0.10.28
+16 error npm -v 1.4.9
+17 error code ELIFECYCLE
+18 verbose exit [ 1, true ]
