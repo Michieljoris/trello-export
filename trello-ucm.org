@@ -1,4 +1,9 @@
 * good to know
 
+  https://github.com/lmatteis/node-trello
+  
 * bugs
+  
+It is possible via the trello api to download all data.
+With this data it should be possible to make invoices. 
 

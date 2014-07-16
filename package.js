@@ -101,9 +101,11 @@ module.exports = {
     // `devDependencies` block for the way to include dependencies.
     "dependencies": {
         // "dougs_vow": "*",
-        "fs-extra": "0.8.x"
-        
-        // "colors": "*",
+        "fs-extra": "0.8.x",
+        "node-trello": "0.1.x",
+        "colors": "*",
+        "logthis": "*",
+        "moment": "*"
     },
     // What dependencies are useful only for developers?
     // Installed when we `npm install` in our working directory, but not 

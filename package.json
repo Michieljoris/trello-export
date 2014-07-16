@@ -24,7 +24,11 @@
     "node": ">= 0.6.x"
   },
   "dependencies": {
-    "fs-extra": "0.8.x"
+    "fs-extra": "0.8.x",
+    "node-trello": "0.1.x",
+    "colors": "*",
+    "logthis": "*",
+    "moment": "*"
   },
   "devDependencies": {
     "docco": "*"
@@ -33,5 +37,5 @@
   "scripts": {
     "docs": "node node_modules/.bin/docco src/trello-ucm.js"
   },
-  "version": "0.1.1"
+  "version": "0.1.7"
 }
